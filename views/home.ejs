@@ -1,0 +1,21 @@
+
+
+<%- include("partial/header"); -%> 
+
+    <h1>Home</h1>
+    <p> <%= homeContent %>   </p>
+
+    <% for(let i=0;i<postArray.length;i++){ %>
+        <h2> <%= postArray[i].title %>  </h2>
+        <p> <%= postArray[i].content.substring(0,160)+"......" %> <a href="/post/ <%= postArray[i].title %>" target="_blank">Read More</a></p>
+    <% } %>
+
+<%- include("partial/footer"); -%> 
+
+
+
+
+
+
+
+
