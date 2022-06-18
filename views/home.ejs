@@ -1,7 +1,12 @@
 
 
 <%- include("partial/header"); -%> 
-
+    <div class="search">
+        <form class="" action="/search" method="post">
+            <input class="form-i"  type="text" name="queryTxt" placeholder=" I'm Ready to Find Your Query " required="on" autocomplete="off">
+            <button class="btn btn-warning btn-cntr" type="submit" name="" value="">Search</button>
+        </form>
+    </div>
     <h1>Home</h1>
     <p> <%= homeContent %>   </p>
 

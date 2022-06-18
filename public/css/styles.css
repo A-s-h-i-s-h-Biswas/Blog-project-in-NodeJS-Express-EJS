@@ -10,6 +10,22 @@ body{
 h1,h2,h3,h4,h5,h6,li a{
     font-weight: bold;
 }
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.form-i{
+    margin-top: 15px;
+    width: 350px;
+    height: 35px;
+    border-radius:10px solid rgb(70, 139, 223);
+}
+.form-i:focus{
+    outline: none;
+    border-color: rgb(4, 48, 48);
+}
 
 .container-fluid {
     padding-top: 70px;
